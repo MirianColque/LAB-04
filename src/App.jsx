@@ -12,7 +12,6 @@ function App() {
      <WapperList>
       <List/>
      </WapperList>
-     <Button text="Click me" />
      <CompWithProps />
       
     </>

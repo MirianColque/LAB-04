@@ -1,7 +1,6 @@
 import { useState} from "react";
-import { defineConfig } from "vite";
 
-export const Button = props => {
+const Button = props => {
 
     const { text } = props;
     const[count, setCount] = useState(0);

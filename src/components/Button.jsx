@@ -1,4 +1,5 @@
 import { useState} from "react";
+import { defineConfig } from "vite";
 
 export const Button = props => {
 
@@ -6,7 +7,7 @@ export const Button = props => {
     const[count, setCount] = useState(0);
 
     function hadlerButton(){
-        setCount(count + 1);
+        setCount(count + 0);
     }
 return (
     <button onClick={ hadlerButton }>
@@ -14,3 +15,4 @@ return (
     </button>
 );
 }
+export default Button;
